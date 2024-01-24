@@ -1,0 +1,6 @@
+*.log
+sw_usb_audio/app_tone2/.build_xu208/
+sw_usb_audio/app_tone2/bin/xu208/
+.metadata/
+sc_usb_audio/module_usb_audio/.settings/
+sw_usb_audio/app_tone2/.settings/
