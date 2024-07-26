@@ -10,7 +10,7 @@ MFI ?= 0
 # not include the .xe postfix. If left blank the name will default to
 # the project name
 APP_NAME = $(TARGET)
-OMPILE_TIME = $(shell echo %date:~2,2%%date:~5,2%%date:~8,2%)
+COMPILE_TIME = $(shell echo %date:~2,2%%date:~5,2%%date:~8,2%)
 FIRMWARE_VERSION=0124
 FLASH_IMAGE = bin/xu208/tone2-xmos-mul-v1.24-$(OMPILE_TIME).bin
 
